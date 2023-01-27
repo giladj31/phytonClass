@@ -1,0 +1,5 @@
+num=int(input("Enter a 4-digit number: "))
+print("ספרת האלפים", num//1000)
+print("ספרת המאות", (num//100)%10)
+print("ספרת העשרות", (num//10)%10)
+print("ספרת היחידות", num%10)
